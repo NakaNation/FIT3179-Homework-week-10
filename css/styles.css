@@ -1,0 +1,66 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Use a modern sans-serif font */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Make heading fonts bold */
+h1, h2 {
+    font-weight: bold;
+}
+
+/* Set a light background color for the body */
+body {
+    background-color: #f9f9f9;
+}
+
+/* Define a modern page container with padding */
+.page {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure visuals take full width */
+.vis-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style headings for descriptions */
+.description h2, .description h1 {
+    margin-top: 0;
+}
+
+/* Adjust spacing for right-aligned descriptions */
+.description-right {
+    padding-left: 20px;
+}
+
+/* Adjust spacing for left-aligned descriptions */
+.description-left {
+    padding-right: 20px;
+}
+
+/* Add some margin between grid groups */
+.pure-g {
+    margin-bottom: 20px;
+}
+
+/* Define a class for smaller font size */
+.small-font {
+    font-size: 14px;
+}
